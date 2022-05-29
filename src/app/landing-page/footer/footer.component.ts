@@ -8,7 +8,7 @@ import { faRightToBracket, } from '@fortawesome/free-solid-svg-icons';
 })
 export class FooterComponent implements OnInit {
   faCoffee = faRightToBracket;
-
+  
   constructor() { }
 
   ngOnInit() {

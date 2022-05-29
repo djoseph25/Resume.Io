@@ -44,10 +44,12 @@ import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SwiperModule } from 'swiper/angular';
 
 
 @NgModule({
   exports: [
+    SwiperModule,
     FlexLayoutModule,
     FontAwesomeModule,
     A11yModule,
