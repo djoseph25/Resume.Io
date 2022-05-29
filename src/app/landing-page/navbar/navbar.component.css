@@ -1,0 +1,19 @@
+
+body {
+  margin: 0;
+  overflow-x: hidden !important;
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+}
+
+img{
+  width: 60px;
+  margin-left: 90px;
+}
+mat-toolbar{
+  background-color: #00478e;;
+ }
+
+.icon{
+  color: #ffbe00;
+}

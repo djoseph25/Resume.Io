@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LandingPageModule } from './landing-page/landing-page.module';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -10,8 +12,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    LandingPageModule
   ],
+  exports:[MaterialModule],
   providers: [],
   bootstrap: [AppComponent]
 })
