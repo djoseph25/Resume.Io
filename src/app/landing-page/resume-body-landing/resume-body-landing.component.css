@@ -1,0 +1,89 @@
+mat-card-content {
+  background-color: rgb(252, 252, 252);
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+.mat-card {
+  background-color: rgb(249, 245, 237);
+  font-family: "Courier New", Courier, monospace;
+}
+mat-card:nth-child(2){
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+mat-card-subtitle {
+  padding-top: 20px;
+  margin: 20px 100px;
+  font-size: 18px;
+}
+mat-card-title {
+  padding-top: 60px;
+  font-weight: 600;
+  font-size: 35px !important;
+  margin: 20px 100px;
+}
+mat-chip {
+  transition: none !important;
+  box-shadow: none !important;
+}
+
+.mat-card-title {
+  font-size: 21px;
+}
+
+button{
+  text-align: center;
+  margin: 35px 10px 60px 0px;
+  background-color: #0b4d8f;
+  color: white;
+  padding: 4px 45px;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size:18px;
+}
+
+.button{
+  text-align: center;
+}
+
+/* PPERSW
+I */
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+/* .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+  display: none;
+} */
+
+::ng-deep.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  display: none !important;
+  border-radius: 50%;
+  background: var(--swiper-pagination-bullet-inactive-color, #000);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+
+.swiper-slide img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img
+{
+  position:absolute;
+  width: 65%;
+  top:51%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid rgb(222, 222, 222);
+  margin-top: 33px;
+  /* border-color: rgb(222, 222, 222);
+  padding: 6px 30px;
+  background-image: url('https://images.unsplash.com/photo-1547104442-044448b73426?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3135&q=80'); */
+}
+

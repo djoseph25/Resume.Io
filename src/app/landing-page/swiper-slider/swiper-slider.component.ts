@@ -14,13 +14,14 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 })
 export class SwiperSliderComponent implements OnInit {
   config: SwiperOptions = {
+    autoplay: true,
     slidesPerView: 4,
     navigation: false,
     freeMode: true,
     pagination: { clickable: true },
     scrollbar: { draggable: true },
     effect: 'fade',
-    
+
   };
 
   constructor() { }
